@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Build artifacts
+phaser-repo/
+*.log
+
+# Skill_Seekers output (temporary)
+Skill_Seekers/output/phaser_data/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,46 @@
+{
+  "name": "phaser",
+  "description": "Phaser game engine for building HTML5 games with TypeScript/JavaScript. Use for Phaser 3 projects, game development, scenes, game objects, physics (Arcade/Matter), sprites, animation, input handling, audio, cameras, or any Phaser-specific questions.",
+  "base_url": "https://photonstorm.github.io/phaser3-docs/",
+  "start_urls": [
+    "https://photonstorm.github.io/phaser3-docs/",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.Input.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.Animations.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.Cameras.html",
+    "https://photonstorm.github.io/phaser3-docs/Phaser.Sound.html"
+  ],
+  "selectors": {
+    "main_content": "article",
+    "title": "h1",
+    "code_blocks": "pre code"
+  },
+  "url_patterns": {
+    "include": [
+      "Phaser"
+    ],
+    "exclude": [
+      "/index.html",
+      "/list_"
+    ]
+  },
+  "categories": {
+    "core": ["Phaser.Game", "Phaser.Config", "Phaser.Core"],
+    "scenes": ["Scene", "ScenePlugin", "SceneManager"],
+    "game_objects": ["GameObjects", "Sprite", "Image", "Text", "Graphics", "Container", "Group"],
+    "physics": ["Physics", "Arcade", "Matter", "Body", "Collider"],
+    "animation": ["Animations", "AnimationManager", "Tween"],
+    "input": ["Input", "Keyboard", "Mouse", "Pointer", "Touch", "Gamepad"],
+    "audio": ["Sound", "AudioManager", "SoundManager"],
+    "cameras": ["Cameras", "Camera", "CameraManager"],
+    "loader": ["Loader", "LoaderPlugin"],
+    "rendering": ["Renderer", "WebGL", "Canvas", "Texture"],
+    "math": ["Math", "Vector", "Rectangle", "Point"],
+    "utilities": ["Utils", "Time", "Tilemaps"]
+  },
+  "rate_limit": 0.5,
+  "max_pages": 500
+}

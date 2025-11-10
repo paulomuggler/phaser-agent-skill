@@ -1,0 +1,35 @@
+{
+  "name": "phaser",
+  "description": "Phaser game engine for building HTML5 games with TypeScript/JavaScript. Use for Phaser 3 projects, game development, scenes, game objects, physics (Arcade/Matter), sprites, animation, input handling, audio, cameras, or any Phaser-specific questions.",
+  "base_url": "https://phaser.io/tutorials/",
+  "start_urls": [
+    "https://phaser.io/tutorials/getting-started-phaser3",
+    "https://phaser.io/tutorials/making-your-first-phaser-3-game",
+    "https://phaser.io/tutorials/how-to-use-phaser-with-typescript"
+  ],
+  "selectors": {
+    "main_content": "article",
+    "title": "h1",
+    "code_blocks": "pre code"
+  },
+  "url_patterns": {
+    "include": [
+      "/tutorials/"
+    ],
+    "exclude": [
+      "/download",
+      "/news",
+      "/community"
+    ]
+  },
+  "categories": {
+    "getting_started": ["getting-started", "introduction", "first"],
+    "typescript": ["typescript", "types"],
+    "game_development": ["game", "development", "tutorial"],
+    "physics": ["physics", "arcade", "matter"],
+    "sprites": ["sprite", "animation"],
+    "scenes": ["scene", "state"]
+  },
+  "rate_limit": 0.5,
+  "max_pages": 200
+}

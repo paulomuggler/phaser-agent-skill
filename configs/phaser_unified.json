@@ -1,0 +1,65 @@
+{
+  "name": "phaser",
+  "description": "Phaser game engine for building HTML5 games with TypeScript/JavaScript. Use for Phaser 3 projects, game development, scenes, game objects, physics (Arcade/Matter), sprites, animation, input handling, audio, cameras, or any Phaser-specific questions. Combines documentation and source code for complete coverage.",
+  "merge_mode": "rule-based",
+  "sources": [
+    {
+      "type": "documentation",
+      "base_url": "https://docs.phaser.io/",
+      "start_urls": [
+        "https://docs.phaser.io/phaser/getting-started/what-is-phaser",
+        "https://docs.phaser.io/phaser/getting-started/making-your-first-phaser-game",
+        "https://docs.phaser.io/phaser/concepts/scenes",
+        "https://docs.phaser.io/phaser/concepts/gameobjects",
+        "https://docs.phaser.io/phaser/concepts/physics",
+        "https://docs.phaser.io/phaser/concepts/cameras",
+        "https://docs.phaser.io/phaser/concepts/input",
+        "https://docs.phaser.io/phaser/concepts/animations"
+      ],
+      "selectors": {
+        "main_content": "article",
+        "title": "h1",
+        "code_blocks": "pre code"
+      },
+      "url_patterns": {
+        "include": [
+          "/phaser/getting-started/",
+          "/phaser/concepts/",
+          "/phaser/tutorials/",
+          "/phaser/guides/"
+        ],
+        "exclude": [
+          "/blog",
+          "/news",
+          "/community",
+          "/download"
+        ]
+      },
+      "categories": {
+        "getting_started": ["getting-started", "what-is-phaser", "first-game", "installation", "introduction"],
+        "scenes": ["scenes", "scene", "lifecycle"],
+        "game_objects": ["gameobjects", "game-objects", "sprites", "image", "text", "graphics", "container"],
+        "physics": ["physics", "arcade", "matter", "collision", "body", "velocity"],
+        "animation": ["animation", "anims", "sprite-sheet", "tween"],
+        "input": ["input", "keyboard", "mouse", "pointer", "touch", "gamepad"],
+        "audio": ["audio", "sound", "music"],
+        "cameras": ["camera", "cameras", "viewport", "scroll"],
+        "loader": ["loader", "asset", "preload", "loading"],
+        "rendering": ["render", "webgl", "canvas", "texture"],
+        "typescript": ["typescript", "types", "definitions"]
+      },
+      "extract_api": true,
+      "max_pages": 400
+    },
+    {
+      "type": "github",
+      "repo": "phaserjs/phaser",
+      "include_code": true,
+      "code_analysis_depth": "surface",
+      "include_readme": true,
+      "include_changelog": true,
+      "include_releases": true,
+      "max_issues": 50
+    }
+  ]
+}
